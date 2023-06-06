@@ -82,3 +82,102 @@ button {
     width: 500px;
     justify-content: center;
 }
+
+.container .pics p {
+     text-align: center;
+}
+
+.pics img{
+width:100px;
+height: 100px;
+}
+
+.container .infotxt{
+    display:flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 35px;
+}
+
+.container .pics{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.info .container h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.quote i{
+    font-size: 36px;
+    font-style:italic;
+    color: #1F2937;
+    width: 800px;
+    
+}
+
+.quote{
+    display:flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cred {
+    display:flex;
+    justify-content: flex-end;
+    width: 600px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bottom{
+    height:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom .container{
+    display:flex;
+    background-color: #3882F6;
+    align-items: center;
+    height: 100px;
+    width: 1000px;
+    padding: 50px;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+
+.bottom .container .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+.bottom .container button {
+    color: white;
+    border-color: white;
+    border: solid 2px;
+    width: 100px;
+    margin-right: 150px;
+}
+
+.bottom .container h3, p{
+    margin:0;
+    color: white;
+}
+
+h3{
+    font-weight: bold;
+}
